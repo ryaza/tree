@@ -1,0 +1,39 @@
+.wrapper {
+  width: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.label {
+  margin-right: 10px;
+  word-break: break-word;
+}
+
+.input {
+  outline: none;
+  height: 30px;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity ease-in 0.2s;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.editContainer {
+  display: flex;
+  justify-content: flex-start;
+}
